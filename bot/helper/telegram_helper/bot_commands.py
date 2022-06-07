@@ -14,7 +14,7 @@ class _BotCommands:
         self.StatusCommand = f'status1{CMD_INDEX}'
         self.AuthorizedUsersCommand = f'users1{CMD_INDEX}'
         self.AuthorizeCommand = f'authorize1{CMD_INDEX}'
-        self.UnAuthorizeCommand = f'unauthorize1CMD_INDEX}'
+        self.UnAuthorizeCommand = f'unauthorize1{CMD_INDEX}'
         self.AddSudoCommand = f'addsudo1{CMD_INDEX}'
         self.RmSudoCommand = f'rmsudo1{CMD_INDEX}'
         self.PingCommand = f'ping1{CMD_INDEX}'
