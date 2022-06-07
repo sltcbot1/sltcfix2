@@ -22,7 +22,7 @@ IMAGE_SUFFIXES = ("JPG", "JPX", "PNG", "WEBP", "CR2", "TIF", "BMP", "JXR", "PSD"
 class TgUploader:
 
     def __init__(self, name=None, listener=None):
-        self.name = name
+        self.name = "@SLTorrentingCorp__"+name
         self.uploaded_bytes = 0
         self._last_uploaded = 0
         self.__listener = listener
