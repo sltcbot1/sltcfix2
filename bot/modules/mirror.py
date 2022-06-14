@@ -201,7 +201,7 @@ class MirrorListener:
             if typ != 0:
                 msg += f'\n<b>☞ ❌ Corrupted Files: </b>{typ}'
             msg += f'\n<b>➩👤 cc: </b>{self.tag}\n\n'
-            msg += f'\n\n<b>☞ 🎯 Powered by @SLTorrentingCorp</b>'
+            msg += f'<b>☞ 🎯 Powered by @SLTorrentingCorp</b>\n\n'
             if not files:
                 sendMessage(msg, self.bot, self.message)
             else:
